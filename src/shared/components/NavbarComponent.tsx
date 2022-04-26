@@ -21,7 +21,7 @@ const NavbarComponent = () => {
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
                     <Text textAlign={useBreakpointValue({ base: 'center', md: 'left' })} fontFamily={'heading'} color={useColorModeValue('gray.800', 'white')}>
-                        Logo
+                        Logo App
                     </Text>
 
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -38,9 +38,9 @@ const NavbarComponent = () => {
                         fontSize={'sm'}
                         fontWeight={600}
                         color={'white'}
-                        bg={'pink.400'}
+                        bg={'blue.400'}
                         _hover={{
-                            bg: 'pink.300'
+                            bg: 'blue.300'
                         }}
                     >
                         Sign Up
